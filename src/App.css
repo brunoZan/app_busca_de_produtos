@@ -1,31 +1,25 @@
-.App {
- 
+* {
+  box-sizing: border-box;
+}
+
+.App 
+{ 
   text-align: center;
-  border: 3px solid black;
+  border: 1px solid black;
   max-width: 25vw;
   min-width: 25vw;
   min-height: 30vh;
   margin: 5% 40%;
   background-color: #fff;
 }
-header {
+
+header 
+{
+  background-color: aqua;
   justify-items: left;
 }
-#span {
+
+#span 
+{
   display: block;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
